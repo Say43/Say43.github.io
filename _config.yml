@@ -1,0 +1,10 @@
+title: Say43
+description: Machine-learning, simulation and control projects, each ending in a written report.
+url: https://say43.github.io
+baseurl: ""
+github_username: Say43
+theme: minima
+show_excerpts: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
