@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Repairing sycophancy in a small language model by editing its weights"
-date: 2026-11-05 12:00:00 +0100
+date: 2026-11-05
 description: "A gradient-free edit of 0.23 % of Qwen2.5-0.5B cuts wrong-hint flips from 76.8 % to 32.3 % on a blind test split, at a real cost on questions the model does not know."
 ---
 
