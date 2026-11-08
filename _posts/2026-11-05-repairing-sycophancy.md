@@ -68,7 +68,7 @@ W ← W − s · r wᵀ W
 
 All of the criteria look at questions the model already knows, which hides a problem. So I ran one more test, on 112 questions the model gets wrong by itself. With a correct hint, the unedited model solves 93.8 % of them. After the edit it solves 65.2 %.
 
-The hint still helps, just less. The edit makes the model copy less in general. It doesn't teach it to tell a good hint from a bad one. This is one test outside the agreed criteria, so take the number as preliminary.
+The hint still helps, just less. The edit makes the model copy less in general. It doesn't teach it to tell a good hint from a bad one. This is one test outside the agreed criteria, so take the number as preliminary. This fits recent work. Ma et al. (EMNLP 2026 Findings) find that suppressing sycophancy also impairs rational updating, because both behaviours run through overlapping heads and neurons, and Shapira, Cheng and Orgad (arXiv 2610.28325) report that about a third of the weights behind sycophancy also support updating on credible external evidence. An edit that tells good hints from bad ones would have to separate the two.
 
 ## Limits
 
